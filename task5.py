@@ -22,5 +22,4 @@ with open("transactions.txt", encoding="utf8") as f:
             maxx = months[i][0]
             summ = months[i][1]
     # вывод ответа
-    # print(j, maxx, summ / maxx)
-    print(months)
+    print(j, maxx, summ / maxx)
